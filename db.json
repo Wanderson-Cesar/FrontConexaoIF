@@ -1,0 +1,38 @@
+{
+  "Professor": [],
+  "Mensagens": [
+    {
+      "grupo": "TSI - P5",
+      "texto": "Bom dia pessoal, n tem aula",
+      "id": 1
+    }
+  ],
+  "Coordenador": [
+    {
+      "nome": "ota",
+      "email": "ota@gmail.com",
+      "senha": "ota",
+      "telefone": "982176732",
+      "disciplina": "CD",
+      "registroTrabalho": "segunda...sexta.",
+      "id": 1
+    }
+  ],
+  "Alunos": [
+    {
+      "nome": "joao",
+      "email": "joao@gmail.com",
+      "senha": "joao",
+      "telefone": "982176732",
+      "matricula": 9854387543,
+      "id": 1
+    }
+  ],
+  "Cursos": [
+    {
+      "nome": "TSI",
+      "instituicao": "IFPB",
+      "id": 1
+    }
+  ]
+}

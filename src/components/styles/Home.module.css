@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Oswald:wght@700&family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family: Poppins;
+}
+.sessao1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.conteudo_titulo {
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace, sans-serifS;
+    font-size: 54px;
+    color: #fff;
+}
+.conteudo_titulo span {
+    color: green;
+    font-weight: bold;
+}
+.conteudo_subTitulo {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.btn {
+    background-color: green;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(12, 99, 12);
+}
+.image2 {
+    height: 430px;
+    margin-top: 8%;
+}
+.conteudo_secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: #fff;
+}
+.tittle_secundario{
+    padding-top: 2em;
+    border-top: 0.4px solid #fff;
+    margin-bottom: 1em;
+}
+.conteudo_texto{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.conteudo_texto strong{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5em;
+}
+.texto {
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 13px;
+    background-color: green;
+    color: #fff;
+    width: 18em;
+    height: 25em;
+    padding: 1.5em;
+    margin: 1em;
+}
+.texto:hover {
+    background-color: rgb(12, 99, 12);
+    transition: 1s;
+}

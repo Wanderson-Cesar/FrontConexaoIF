@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@500&family=Titillium+Web:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins;
+}
+.conteudoLogin {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10%;
+}
+.titulo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo_titulo span {
+    color: green;
+    font-weight: bold;
+}
+.titulo h1 {
+    font-size: 55px;
+    margin-left: 20px;
+    margin-top: 2.5em;
+    font-family: 'Titillium Web';
+    font-weight: 600 bold;
+    color: #fff;
+}
+.titulo p {
+    text-align: left;
+    font-size: 20px;
+    width: 50vw;
+    color: #fff;
+}
+.formulario{
+    width: 30%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px;
+    border: 0.4px solid #fff;
+}
+.formulario img {
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+.formulario input {
+    width: 28em;
+}
+.formulario hr {
+    width: 90%;
+    margin: 0 auto;
+}
+.formulario h3{
+    color: #fff;
+    margin: 0.5em;
+}
+.formulario button {
+    margin: 1.5em;
+}
+.botaoCadastro {
+    width: 15em;
+    height: 50px;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background-color: green;
+    color: #fff;
+}
+.botaoCadastro:hover {
+    background-color: rgb(12, 99, 12);;
+}
+.conteudo1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.conteudo_titulo {
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace, sans-serifS;
+    font-size: 54px;
+    color: #fff;
+}
+.conteudo_subTitulo {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}

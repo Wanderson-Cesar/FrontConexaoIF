@@ -1,0 +1,53 @@
+.content_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content_form input::placeholder {
+    padding-left: .4em;
+  }
+
+
+  .formGroup select, input{
+    flex: 1;
+    height: 38px; 
+    margin-top: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: inherit;
+    font-size: 14px; 
+    padding: 8px 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+  }
+  
+.content_form button {
+  margin-right: .2em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+.content_form input::placeholder {
+    padding-left: .4em;
+  }
+
+
+
+  
+  label {
+    width: 170px;
+    margin-right: 10px;
+    color: white;
+  }
+
+  input:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px #3921a5; 
+  }
+   select:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px #3921a5; 
+  }
+  
+
+  

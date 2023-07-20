@@ -1,0 +1,32 @@
+.content_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.content_form input {
+        height: 3.2em;
+        width: 80%;
+        margin: 15px 20px 0px 25px;
+        border-radius: 6px;
+        border: 1px solid grey;
+        padding: 10px;
+}
+.content_form input::placeholder {
+    padding-left: .4em;
+}
+.content_form p {
+    font-size: small;
+    margin-left: 2.2em;
+    margin-top: 0.4em;
+    width: 200px;
+    color: #fff;
+}
+.content_form button {
+    width: 28em;
+    cursor: pointer;
+}
+.content_form button:hover {
+    background-color: rgb(12, 99, 12);;
+}

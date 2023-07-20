@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100vw;
+    font-family: Poppins;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;  /*ordena em linha*/
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 70%;
+}
+.image {
+    height: 50px;
+}
+.navbar  {
+    display: flex;
+    gap: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+.item2{
+    margin-left: 3em;
+}
